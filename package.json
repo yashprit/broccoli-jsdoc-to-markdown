@@ -1,0 +1,45 @@
+{
+  "name": "broccoli-jsdoc-to-markdown",
+  "version": "0.0.0-alpha",
+  "description": "broccoli plugin for jsdoc-to-markdown",
+  
+    "bugs": {
+      "url": "yashprit/broccoli-jsdoc-to-markdown/issues"
+  },
+  "author": {  "url": "yashprit.github.io"  ,  "name": "Yashprit"  ,  "email": "yashprit@gmail.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "yashprit/broccoli-jsdoc-to-markdown"
+  },
+  "license": "MIT",
+  "files": [ 
+        "index.js"   ,
+        "cli.js" 
+  ],
+  "keywords": [
+    "broccoli-jsdoc-to-markdown"  ,
+        "broccoli-plugin"  ,
+        "jsdoc"  ,
+        "markdown"  ,
+        "documentation"  ,
+        "js-documentation"  ,
+        "jsdoc-to-markdown" 
+  ],
+  "dependencies": { 
+        "minimist": "^1.1.1" 
+  },
+  "devDependencies": { 
+        "mocha": "*" 
+       ,
+      "jshint-stylish": "^1.0.0" 
+  },
+  "scripts": { 
+      
+      
+       "test": "mocha" 
+  }  ,
+      "bin": {
+        "broccoli-jsdoc-to-markdown": "cli.js"
+    } 
+}
